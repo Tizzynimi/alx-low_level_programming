@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
-* main - print numbers from 00 to 99.
+* main - print numbers from 01 to 99.
 (*
 * Return: 0 on success
 */
 int main(void)
 {
 int i = '0';
-int j = '0';
+int j = '1';
 while (i <= '9')
 {
 while (j <= '9')
@@ -27,7 +27,7 @@ j++;
 }
 if (j >= '9')
 {
-j = '0';
+j = '1';
 }
 i++;
 }
