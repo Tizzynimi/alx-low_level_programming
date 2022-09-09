@@ -10,11 +10,11 @@ int i = '0';
 int j = '1';
 while (i <= '8')
 {
-while (j <= '9'; j++)
+while (j <= '9')
 {
 putchar(i);
 putchar(j);
-if (j == '9' && i == '8')
+if (j == '9' && i == '8' +j)
 {
 putchar('\n');
 }
