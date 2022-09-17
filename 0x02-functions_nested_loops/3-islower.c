@@ -1,4 +1,4 @@
-#include "msin.h"
+#include "main.h"
 /**
  * _islower - compares it an input is lower case character or not
  * @c: Input character to be compared recieved as int
