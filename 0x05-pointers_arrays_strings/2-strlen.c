@@ -15,7 +15,7 @@ int _strlen(char *s)
 	while (pl != '\0')
 {
 	sum++;
-	
+
 	pl = s[i++];
 }
 return (sum);
