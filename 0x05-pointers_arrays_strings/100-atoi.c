@@ -19,7 +19,7 @@ while (s[i] != '\0')
 	if (s[i] == '-')
 		minus *= -1;
 
-	if (s[i] >= '0' && s[i] <= '99')
+	if (s[i] >= '0' && s[i] <= '9')
 	{
 		result *= 10;
 		result -= (s[i] - '0');
