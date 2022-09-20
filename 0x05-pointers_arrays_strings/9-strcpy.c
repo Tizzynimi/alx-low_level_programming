@@ -7,18 +7,13 @@
  * Return: string
  */
 
-#define LEN 4
-void _memset(char *dest, char *src);
-char *_strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src)
+{
+	int i = 0;
 
-int main(void)
-	char cpy[LEN + 1] = {0};
-char *str;
-char *ret;
-
-_memset(cpy, 'H', LEN);
-str = "Z";
-ret = _strcpy(cpy, str);
-printf("%s\n%s\n%s\n", str, cpy, ret);
-return (0);
+	for (; src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	return (dest);
 }
