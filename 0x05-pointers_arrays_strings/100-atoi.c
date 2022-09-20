@@ -30,5 +30,5 @@ while (s[i] != '\0')
 	i++;
 }
 result *= minus;
-return (result)
+return (result);
 }
