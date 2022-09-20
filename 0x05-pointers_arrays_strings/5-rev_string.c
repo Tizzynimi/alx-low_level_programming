@@ -22,4 +22,4 @@ for (i = 0; i < fcounter; i++)
 	s[i] = s[fcounter];
 	s[fcounter] = rev;
 }
-} 
+}
