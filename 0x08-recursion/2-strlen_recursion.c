@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strlen_recursion - return length of string
  *@s: string
