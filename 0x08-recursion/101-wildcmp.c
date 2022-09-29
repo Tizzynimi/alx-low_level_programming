@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * wildcmp - check the code and returns 1 if it is identical.
+ * wildcmp - check the code is used to check student.
  * @s1: string
  * @s2: string
  * Return: Always 0.
