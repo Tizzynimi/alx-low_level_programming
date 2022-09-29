@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * wildcmp - check the code is used to check student.
+ * wildcmp - check the code is used to check student
  * @s1: string
  * @s2: string
  * Return: Always 0.
@@ -36,7 +36,7 @@ return (0);
  * @a: int
  * @b: int
  * @wildUsed: int
- * Return: Always 0.
+ * Return: Always 1.
  */
 int checker(char *s1, char *s2, int a, int b, int wildUsed)
 {
